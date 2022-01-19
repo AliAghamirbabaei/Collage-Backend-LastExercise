@@ -1,0 +1,75 @@
+
+body{
+    width: 1000px;
+    margin: auto;
+    font-family: "B Yekan";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:30px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.2);
+    background: #fcfcfc;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.title_container{
+    text-align: center;
+}
+.register_data{
+    width: 500px;
+}
+
+.register_data input {
+    width: 100%;
+    padding:5px;
+}
+
+.register_data button{
+    background: #ff0030;
+    color: white;
+    padding: 10px;
+    border: 0;
+    margin: 10px 0;
+    margin-bottom: 50px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.price{
+    font-size:25px;
+    color: #ff0030;
+}
+.curency{
+    font-size: 25px;
+}
+
+.product-link{
+    font-size:15px;
+    text-decoration: none;
+    color:#ffffff;
+    background: #ff0030;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h6{
+    margin: 0;
+}
